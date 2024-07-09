@@ -1,38 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ecommerce Shoe Store
 
-## Getting Started
+![image](https://github.com/Abubakarrrr/shoe-store-frontend/blob/main/shoestore02.png)
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+This is an Ecommerce shoe with stripe payment integration built using NextJs and Strapi Headless CMS
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- **Add to Cart:**
+- **Wishlist** 
+- **Payment Checkout**
+- **Pagination**
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Technologies
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- **NextJS:**
+- **Strapi Headless CMS**
+- **Tailwind CSS** 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+1. Clone the repository: `git remote add origin https://github.com/Abubakarrrr/shoe-store-frontend.git`
+2. Similarly clone backend : `git remote add origin https://github.com/Abubakarrrr/shoe-store-backend.git`
+3. Navigate to the project directory: `cd shoe-store`
+4. Install backend dependencies: `cd frontend && npm install`
+5. Install frontend dependencies: `cd backend && npm install`
+6. Start the backend server: `cd server && npm run dev`
+7. Start the frontend client: `cd client && npm run dev`
+8. Open your browser and visit: `http://localhost:3000`
 
-To learn more about Next.js, take a look at the following resources:
+## Contribution
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is inspired by : [JS dev Hindi](https://www.youtube.com/@jsdevhindi/playlists)
